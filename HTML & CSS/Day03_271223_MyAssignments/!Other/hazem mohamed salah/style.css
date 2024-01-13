@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: 0px 100px;
+}
+
+footer {
+    background-color: rgb(48, 46, 46);
+    padding: 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+.foot p {
+    display: inline-block;
+}
+
+.p2 {
+    float: right;
+}
+
+.first p {
+    text-align: center;
+    margin: 20px;
+}
+
+.firstdiv{
+    text-align: center;
+}
+
+.pa {
+    width: 230px;
+    height: 120px;
+    background-color: rgb(62, 61, 61);
+    display: inline-block;
+    margin: 40px 10px;
+    color: aliceblue;
+    line-height: 120px;
+}
+
+.section {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.section .link {
+    color: orange;
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+}
+
+
+a:link {
+    color: blueviolet;
+}
+
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+
+a:active {
+    color: blue;
+}
+
+
+
+.block {
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+    width: 220px;
+}
+
+.block div {
+    display: inline-block;
+    background-color:black;
+    color: white;
+    padding: 4px;
+}
+
+.block h3 {
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(62, 61, 61);
+}
+
+.block .link {
+    color: orange;
+    position: absolute;
+    right: 20px;
+}

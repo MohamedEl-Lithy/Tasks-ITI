@@ -1,0 +1,179 @@
+/** GLOBAL STYLES################ */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/*?I COULD USE THE "root" AND "global variables" FOR BACKGROUND COLOR AND COLORS TO INCREASE THE REUSABILITY BUT I DID NOT :)**/
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  border: none;
+  border-radius: 7px;
+}
+
+section {
+  margin-top: 30px;
+}
+
+/** SHARED  STYLES################ */
+
+h1,
+h2,
+p {
+  text-transform: uppercase;
+}
+
+.layout {
+  display: inline-block;
+}
+
+.section-header,
+.section-content {
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 40px;
+}
+
+.section-header p {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.section-content img {
+  width: 20%;
+  margin: 5px;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+/** HEADER SECTION STYLES################ */
+
+header {
+  /**sorry!!!, but i got any image from my PC*/
+  background-image: url(images/wallpaperflare.com_wallpaper\ -\ 2023-01-26T185712.051.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+nav {
+  background-color: white;
+  text-transform: uppercase;
+  position: fixed;
+  z-index: 999;
+  top: 10%;
+  width: 80%;
+}
+
+nav .logo {
+  margin: 0px 5px;
+  float: left;
+  padding: 15px;
+}
+
+nav .navbar-linls {
+  float: right;
+}
+
+nav .navbar-linls ul li {
+  margin: 0px 5px;
+  float: left;
+  padding: 15px;
+  position: relative;
+}
+
+nav .navbar-linls ul .active::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  right: 0%;
+  height: 5px;
+  background-color: rgb(165, 126, 42);
+}
+
+.header-content {
+  position: relative;
+  color: white;
+  top: 500px;
+  /* width: fit-content;
+  margin: auto; */
+}
+
+h1 {
+  font-size: 50px;
+  position: relative;
+  padding: 20px;
+}
+
+/* h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 41%;
+  height: 5px;
+  width: 240px;
+  background-color: red;
+} */
+
+/*! THERE IS ANOTHER WAY TO MAKE THIS LINE IN CENTER BECAUSE I DO NOT WANT TO TRY RANDOM NUMBERS :)*/
+
+h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 5px;
+  width: 25%;
+  background-color: white;
+}
+
+.header-content p,
+.header-content button {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.header-content button {
+  background-color: rgb(165, 126, 42);
+  color: white;
+}
+
+.circle-container {
+  margin: auto;
+  width: fit-content;
+}
+
+.circles {
+  display: inline-block;
+  margin: 30px;
+  margin-inline: 10px;
+  background-color: gray;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}

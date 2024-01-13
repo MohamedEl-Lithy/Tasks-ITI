@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+.sec1
+{
+   text-align:center;
+    margin:0 80px 0 80px ;
+}
+hr{
+    margin:0 60px 0 60px ;
+}
+.sec2
+{
+    text-align: center;
+    margin:0 80px 0 100px ;
+}
+.pic{
+    height: 10px;
+    width: 120px;
+    padding: 80px;
+    margin: 50px 10px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+.gomla1{
+    color: rgb(235, 158, 16);
+    padding-left:950px ;
+    font-size: 15px;
+}
+.sec3
+{
+    text-align: center;
+}
+.kelma
+{
+    color: antiquewhite;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.box
+{
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+   padding-top: 50px;
+   margin: 0px ,100px;
+}
+h4{
+    display: inline-block;
+    color: rgb(112, 110, 110);
+    text-transform: uppercase;
+}
+a{
+    color: rgb(235, 158, 16);
+    padding-left: 150px;
+}
+.gomla2
+{
+    padding-left: 30px;
+    text-align: left;
+}

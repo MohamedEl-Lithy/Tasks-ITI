@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url(./1.jpg);
+    background-size: 100%;
+    height: 90vh;
+    padding: 20px;
+}
+body{
+    background-color: #6e6e6e;
+}
+nav {
+    background-color: white;
+    margin: 0px 20%;
+    width: 65%;s
+    padding: 20px;
+}
+
+nav p {
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+li {
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+div.first {
+    color: white;
+    text-align: center;
+    margin-top: 250px;
+}
+
+hr {
+    width: 21%;
+    margin: auto;
+}
+
+button {
+    padding: 15px;
+    margin: 10px;
+    border: 0px;
+    color: black;
+    background-color: white;
+    cursor: pointer
+}
+
+.span {
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 15px 8px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.dot {
+    text-align: center;
+}
+
+.sec {
+    text-align: center;
+    margin-top: 50px;
+    color: azure;
+}
+
+.squ {
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    display: inline-block;
+    margin: 40px 20px;
+}
+
+.one {
+    background-color: #46c40c;
+}
+
+.two {
+    background-color: #539435;
+}
+
+.three {
+    background-color: #2d5e16;
+}
+
+.four {
+    background-color: #88cf67;
+}
+
+.imgs {
+    margin-top: 40px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}

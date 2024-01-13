@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Tasks 26-12-2023</title>
+    <style>
+      .centered {
+        text-align: center;
+      }
+      /* column and row class for divide the page into two sections */
+      .column {
+        float: left;
+        width: 50%;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Task 1 - Table</h1>
+    <div class="row">
+      <div class="column">
+        <table border="2">
+          <thead>
+            <tr>
+              <th colspan="6"><strong>All Data</strong></th>
+            </tr>
+          </thead>
+
+          <tbody>
+           
+            <tr>
+              <td rowspan="4"><strong>Name:</strong></td>
+              <td>Ahmed</td>
+              <td rowspan="4"><strong>Phnoe:</strong></td>
+              <td>01110062020</td>
+              <td rowspan="4"><strong>Email:</strong></td>
+              <td>ahmed@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Sayed</td>
+              <td>01110062020</td>
+              <td>sayed@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Khaled</td>
+              <td>01110062020</td>
+              <td>khaled@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Morad</td>
+              <td>01110062020</td>
+              <td>morad@gmail.com</td>
+            </tr>
+            <tr>
+          </tbody>
+<!-- Footer -->
+          <tfoot>
+            <tr>
+              <td colspan="3" style="text-align: center;"><strong>Working Hours:</strong></td>
+              <td colspan="3" style="text-align: center;"><strong>70/Month</strong></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <div class="column">
+        <!-- <h2>SRC:</h2> -->
+        <img src="imgs/2023-12-26 15_15_02-Window.jpg" alt="src" height="150" />
+      </div>
+    </div>
+
+    
+    <hr />
+    <h1>Task 2 - Lists</h1>
+    <div class="row">
+      <div class="column">
+        <ul>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>
+            <ol>
+              <li>item 1</li>
+              <li>item 2</li>
+
+              <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+                <li>item 4</li>
+              </ul>
+
+              <li>item 3</li>
+              <li>item 4</li>
+              <li>item 5</li>
+            </ol>
+          </li>
+          <li>item 4</li>
+          <li>item 5</li>
+        </ul>
+
+        <dl>
+          <dt>HTML</dt>
+          <dd>
+            this is <strong>markup</strong> language descripes the
+            <mark>structure</mark>
+          </dd>
+          <dt>CSS</dt>
+          <dd>this is a <u>styling</u> language descripes the presentation</dd>
+        </dl>
+      </div>
+      <div class="column">
+        <!-- <h2>SRC:</h2> -->
+        <img src="imgs/2023-12-26 15_15_10-Window.jpg" alt="src" height="300" />
+      </div>
+    </div>
+
+    <hr />
+    <h1>Task 3 - Map</h1>
+    <h2>ITI Location:</h2>
+    <div class="centered">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220979.57368612158!2d30.82859867751287!3d30.071099497373723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585b979b7d1dd9%3A0x88f29d027c44f959!2sInformation%20Technology%20Institute!5e0!3m2!1sen!2seg!4v1703595165724!5m2!1sen!2seg"
+        width="800"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </body>
+</html>

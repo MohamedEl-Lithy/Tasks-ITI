@@ -1,0 +1,138 @@
+/*
+  Global styles
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:active,
+a:hover {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.gallary {
+  max-width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.gallary div {
+  width: 25%;
+}
+
+.gallary div div {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.gallary div div:nth-child(odd) {
+  background-color: red;
+}
+
+.gallary div div:nth-child(even) {
+  background-color: blue;
+}
+
+/*
+  Utility classes
+*/
+
+.clear-float {
+  clear: both;
+}
+
+header {
+  height: 500px;
+  background-image: url("../assets/images/hero.jpg");
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+nav {
+  top: 100px;
+  width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 10px 25px;
+  display: table;
+}
+
+nav div {
+  font-size: 2em;
+  display: inline-block;
+  display: table-cell;
+}
+
+nav ul {
+  display: table-cell;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 5px;
+  text-align: center;
+}
+
+header section {
+  max-width: 40%;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+header section button {
+  background-color: darksalmon;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.dots {
+  text-align: center;
+}
+
+.dots .dotsItem {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: darksalmon;
+  border-radius: 50%;
+  margin: 50px 0;
+}
+
+.main-section {
+  text-transform: uppercase;
+}
+.main-section h3 {
+  margin-bottom: 15px;
+}
+
+#services {
+  margin-bottom: 25px;
+}

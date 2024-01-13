@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 100px;
+}
+
+.first p {
+    text-align: center;
+    margin: 25px;
+}
+
+.squares {
+    text-align: center;
+}
+
+.squ {
+    width: 230px;
+    height: 120px;
+    background-color: rgb(38, 38, 38);
+    display: inline-block;
+    margin: 40px 10px;
+    color: aliceblue;
+    line-height: 120px;
+    border-radius: 10px;
+}
+
+.sec {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.sec .link {
+    color: orange;
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+}
+
+.hr {
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    margin: 20px auto;
+    opacity: 0.25;
+}
+
+.block {
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+    width: 222px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.block div {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.block h3 {
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.block p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.block .link {
+    color: orange;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+footer {
+    background-color: rgb(47, 40, 40);
+    padding: 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+.foot p {
+    display: inline-block;
+}
+
+.p2 {
+    float: right;
+}

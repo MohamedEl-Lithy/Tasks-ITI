@@ -1,0 +1,9 @@
+body{
+
+    background-color: greenyellow;
+} 
+
+#divParent{
+    display: flex;
+    /* justify-content: space-evenly; */
+}

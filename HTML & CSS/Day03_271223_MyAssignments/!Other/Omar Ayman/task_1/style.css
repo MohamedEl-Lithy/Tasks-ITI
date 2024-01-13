@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .container {
+    margin: 0px 100px;
+  }
+  
+  footer {
+    background-color: rgb(48, 46, 46);
+    padding: 20px;
+    color: white;
+    margin-top: 30px;
+  }
+  
+  .foot p {
+    display: inline-block;
+  }
+  
+  .p2 {
+    float: right;
+  }
+  
+  .first p {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .squares {
+    text-align: center;
+  }
+  
+  .square {
+    width: 230px;
+    height: 120px;
+    background-color: rgb(62, 61, 61);
+    display: inline-block;
+    margin: 40px 10px;
+    color: aliceblue;
+    line-height: 120px;
+  }
+  
+  .second {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .second .a {
+    color: orange;
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+  }
+  
+  a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: orange;
+  }
+  
+  a:hover {
+    color: hotpink;
+  }
+  
+  a:active {
+    color: blue;
+  }
+  
+  .hr {
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    margin: 20px auto;
+    opacity: 0.25;
+  }
+  
+  .block {
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+    width: 220px;
+  }
+  
+  .block div {
+    display: inline-block;
+    background-color: rgb(62, 61, 61);
+    color: white;
+    padding: 4px;
+  }
+  
+  .block h3 {
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(62, 61, 61);
+  }
+  
+  .block .a {
+    color: orange;
+    position: absolute;
+    right: 20px;
+  }

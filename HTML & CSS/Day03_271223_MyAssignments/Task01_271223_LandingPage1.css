@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Nav Bar */
+header {
+    background-image: url(imgs/back.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+header nav {
+    background-color: #5fb4c3;
+    height: 10vh;
+    width: 50vw;
+    margin: auto;
+    padding: 3px;
+}
+
+header nav div {
+    display: inline-block;
+    margin: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+header nav ul li {
+    float: left;
+    margin: 10px;
+}
+li a {
+    display: block;
+    color: rgb(48, 43, 43);
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(241, 254, 255);
+    color: rgb(78, 0, 222);
+}
+
+
+.text {
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    margin-top: 300px;
+    
+}
+
+hr {
+ 
+    color: rgb(0, 0, 0);
+    border: 2px solid;
+    width: 20%;
+    margin: auto;
+    
+}
+
+button {
+    margin-left: 42%;
+    padding: 15px;
+    color: #fff;
+    background-color: rgb(10, 143, 163);
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 15px;
+}
+
+/* ---------------------- */
+.span {
+    width: 2px;
+    height: 2px;
+    background-color: rgb(11, 227, 97);
+    border-radius: 50%;
+    margin: 15px 8px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.dot {
+    text-align: center;
+}
+/* ---------------------- */
+
+.middle {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.mid_sec_sq{
+
+    text-align: center;
+}
+
+.mid{
+    display: inline-block;
+    background-color: rgb(88, 145, 73);
+    height: 275px;
+    width: 275px;
+    margin: 10px;
+}
+
+.sq1{
+    background-color: rgb(88, 145, 73);
+    
+}
+
+.sq2{
+    background-color: rgb(88, 145, 73);
+}
+
+.sq3{
+    background-color: rgb(88, 145, 73);
+}
+
+.sq4{
+    background-color: rgb(88, 145, 73);
+}
+
+.pics1{
+    text-align: center;
+}
+.pics2{
+    text-align: center;
+}
+
+img {
+    
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+
+
+
+

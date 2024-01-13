@@ -1,0 +1,37 @@
+p{
+    text-align: center;
+    margin: 20px 200px 20px 200px;
+}
+hr{
+    width: 1000px;
+}
+
+#square-container{
+    display: flex;
+    justify-content: center;
+}
+.square{
+    width: 215px;
+    height: 150px;
+    margin: 10px;
+    background-color: black;
+}
+
+#recent-work{
+    text-align: right;
+    color: orange;
+    margin: 20px 200px 20px 200px;
+}
+
+
+#grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.grid-item{
+    width: 250px;
+    height: 150px;
+    margin: 35px;
+}

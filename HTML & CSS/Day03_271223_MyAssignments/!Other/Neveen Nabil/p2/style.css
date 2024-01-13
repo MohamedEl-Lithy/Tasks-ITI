@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header & nav started */
+header {
+    background-image: url(imgs/cover.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding: 30px;
+}
+
+header nav {
+    background-color: #e0dfdf;
+    height: 7vh;
+    width: 130vh;
+    margin: auto;
+    padding-top: 5px;
+}
+
+header nav div {
+    color: rgb(167, 142, 3);
+    display: inline-block;
+    margin: 10px;
+    font-weight: 700;
+}
+
+header nav ul {
+    color: rgb(167, 142, 3);
+    list-style-type: none;
+    float: right;
+    
+}
+
+header nav ul li {
+    float: left;
+    margin: 10px;
+}
+li a {
+    display: block;
+    color: rgb(48, 43, 43);
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(167, 142, 3);
+    color: aliceblue;
+}
+
+header .text {
+    line-height: 30px;
+    color: #090808;
+    margin-top: 100px;
+    
+}
+
+header .hr {
+    color: rgb(167, 142, 3);
+    border: 2px solid;
+    width: 20%;
+    margin-bottom: 10px;
+    
+}
+
+header button {
+    width: 200px;
+    border: 2px solid;
+    font-weight: 600;
+    color: rgb(167, 142, 3);
+    line-height: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 650px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    margin-left: 43%;
+    background-color: #e0dfdf;
+}
+
+/* Header & nav ended */
+
+/* The three dots started */
+div .bullets ul {
+    float: right;
+}
+
+div .bullets li {
+    float: left;
+    color: rgb(167, 142, 3);
+    height: 5px;
+    width: 5px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: 0px;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* The three dots ended */
+
+/* Services section started */
+section {
+    height: 70vh;
+}
+
+
+section .text {
+    padding: 70px;
+}
+
+section .imgs img {
+    height: 170px;
+    margin: 15px;
+}
+
+/* Services section ended */
+
+/* Portfolio section started */
+section .portfolio {
+    height: 50vh;
+}
+
+/* Portfolio section ended */

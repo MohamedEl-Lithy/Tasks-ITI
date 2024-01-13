@@ -1,0 +1,160 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.header-section{
+    height: 500px;
+    background-image: url(/page1/pics/pxfuel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    background-color: #ece6cee5;
+    width:40%;
+    margin:auto;
+    color:white;
+    padding: 10px 0 ;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.Logo{
+    font-size: 35px;
+}
+.header-content{
+    margin-top: 150px;
+    text-align: center;
+    
+}
+.header-content h2{
+    font-size: 30px;
+    width:300px;
+    border-bottom:1px solid grey;
+    margin:auto;
+    color:white;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+.header-content p{
+    color:white;
+    padding:15px;
+    font-size: 20px;
+    text-shadow: 10 0 0 50%;
+    text-shadow: 2px 2px 2px black;
+}
+.header-content button{
+    color:black;
+    background-color:#AAD7D9;
+    padding:10px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.services{
+    background-color: #ece6cee5;
+    width:100%;
+    /* border:5px solid blue; */
+    text-align: center;
+    padding:15px;
+
+}
+.services h2{
+    margin:10px;
+    font-size: 30px;
+    
+}
+.boxes{
+    text-align: center;
+    margin: 5px;
+}
+.boxes{
+    color: white;
+    text-align: center;
+    margin-top:auto;
+}
+
+.card1,
+.card2,
+.card3,
+.card4{
+    margin: 50px;
+    display: inline-block;
+    background-color: #302F2F;
+    width: 215px;
+    height: 150px;
+    border-radius: 15px;
+}
+.card1{
+    background-color: #88AB8E;
+}
+.card2{
+    background-color: #AFC8AD;
+}
+.card3{
+    background-color: #B0A695;
+}
+.card4{
+    background-color: #776B5D;
+}
+.studio{
+    background-color: #ece6cee5;
+}
+.studio h3{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom:15px;
+}
+.studio p{
+    text-align: center;
+    margin:15px;
+}
+.studio-images{
+
+    display:block;
+    
+}
+.studio-images img{
+   display:inline-block;
+    width:215px;
+    display:flex;
+    flex-direction: row;
+    margin:10px;
+}
+.top{
+    display:inline-block;
+    padding:10px;
+    width:70%;
+    margin:0px 0px 20px 300px;
+
+}
+.bot{
+    display:inline-block;
+    padding:10px;
+    width:70%;
+    margin:0px 0px 20px 300px;
+}
+.images1,
+.images2,
+.images3,
+.images4,
+.images5,
+.images6,
+.images7,
+.images8{
+    display:inline-block;
+    padding:40px;
+}
+ 
+hr{
+    width:80%;
+    text-align: center;
+    margin: auto;
+}

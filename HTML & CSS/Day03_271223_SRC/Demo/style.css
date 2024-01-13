@@ -1,0 +1,261 @@
+/* text props */
+
+ /* body{
+    direction: rtl;
+ } */
+
+/* p{ */
+    /* text-align: center; */
+    /* letter-spacing: 10px; */
+    /* word-spacing: 20px; */
+    /* line-height: 10px; */
+    /* text-transform:capitalize; */
+    /* text-decoration:overline; */
+/* } */
+
+a{
+    text-decoration: none;
+}
+
+
+/* font props */
+
+/* relative units */
+/* 
+html{
+    font-size: 30px;
+}
+
+div{
+    font-size: 10px;
+} */
+
+/* p{ */
+    /* font-family: 'Rubik Broken Fax', sans-serif; */
+    /* font-size: 8vh; */
+
+    /* font-style: italic; */
+    /* font-weight:900; */
+/* } */
+
+/* body{
+    background-color: blue;
+} */
+/* 
+*{
+    box-sizing: border-box;
+
+} */
+
+/* div{ */
+    /* background-color: teal; */
+    /* width: 200px;
+    height: 200px; */
+    /* width: 200px;
+    height: auto;
+    color: #fff; */
+    /* top right bottom left */
+    /* padding: 50px; */
+
+    /* border-width: 5px;
+    border-style:solid;
+    border-color: red; */
+
+    /* border: solid 5px  blue ;
+
+  
+    width: 300px;
+    height: 100px; */
+    /* display: inline-block; */
+    /* padding-top: 50px; */
+    /* margin: 10px; */
+
+    /* margin: 100px; */
+/* } */
+
+/* .first{ */
+    /* margin: 200px; */
+    /* width: 50%; */
+    /* display: none; */
+    /* opacity: 50%; */
+    /* visibility: hidden; */
+
+/* } */
+
+/* .second{ */
+    /* margin: 100px; */
+/* } */
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* div{ */
+
+    /* background-image: url(imgs/bg.jpg);
+    background-color: teal;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-size: contain; */
+    /* background-position: center center; */
+/* } */
+
+
+/* .first , .second, .third{
+    width: 20%;
+    height: 50px;
+}
+
+.first{
+
+    background-color: teal;
+    float: left;
+
+
+}
+
+.second{
+    background-color: tomato;
+    float: left;
+
+}
+
+.third{
+    background-color: brown;
+    float: left;
+}
+
+.another{
+    background-color: blue;
+    height: 50px;
+    
+}
+
+.parent{
+    background-color: blueviolet;
+} */
+
+/* .test{
+    background-color:crimson;
+    height: 50px;
+} */
+/* 
+.clear {
+    clear:both ;
+} */
+
+/* body{
+    height: 3000px;
+} */
+
+/* .parent{ */
+    /* background-color: blueviolet;
+    padding: 20px; */
+    /* position: relative; */
+    /* height: 800px; */
+/* } */
+
+/* .parent div {
+    height: 100px;
+    width: 33%;
+   
+} 
+
+.first{
+    background-color: teal;
+    position: absolute;
+    z-index: 0;
+} */
+
+/* .second{ */
+    /* background-color: brown; */
+    /* position:sticky ;
+    width: 200px;
+    height: 50px;
+    top: 0; */
+    /* bottom: 0;
+    right: 0; */
+    /* position: absolute;
+    top: 50px;
+    left: 150px;
+    z-index: -1;
+    height: 50px; */
+
+/* } */
+
+/* .third{
+
+    position: absolute;
+    background-color: tomato;
+    top: 80px;
+    left: 80px;
+    z-index: 0;
+} */
+
+
+/* 
+
+    selctors :
+        * : universal selector (all elements) - 0
+        tag name : ( p, h1 , a)
+        id : #name
+        class .name
+        space : div p
+         attr :  []
+         ^ : start with
+         $ : end with
+         * : contain
+
+
+         pseudo elements :  (::)
+
+         before 
+         after 
+         first-line 
+         first-letter
+         selection
+
+
+         pseduo classes : (:)
+
+         hover
+         active
+         focus
+         first-child
+         last-child
+         nth-child
+
+
+*/
+/* 
+p:hover{
+    
+  color: blue;
+} */
+
+
+/* input{
+    outline: 0;
+} */
+
+/* input:active{
+    border: 3px solid blue;
+} */
+
+/* input:focus{
+    border: 3px solid blue;
+
+} */
+
+div{
+    background-color: teal;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+
+

@@ -1,0 +1,140 @@
+p{
+    text-align: center;
+    width: 1000px;
+    height: 200px;
+    text-align: justify;
+    margin: 0 auto; /* Center the text horizontally */
+}
+
+#ar1{
+    background-color: aqua;
+    position: absolute;
+    height: 400px;
+    width: 300px ;
+    top: 300px;
+    left: 100px;    
+    text-align: center;
+
+}
+
+#ar2{
+    background-color: aqua;
+    position: absolute;
+    height: 400px;
+    width: 300px ;
+    top: 300px;
+    left: 500px;
+    text-align: center;
+}
+
+#ar3{
+    background-color: aqua;
+    position: absolute;
+    height: 400px;
+    width: 300px ;
+    top: 300px;
+    left: 900px;
+    text-align: center;
+
+}
+
+#ar4{
+    background-color: aqua;
+    position: absolute;
+    height: 400px;
+    width: 300px ;
+    top: 300px;
+    left: 1300px;
+    text-align: center;
+}
+
+span{
+    text-align: center;
+    position: relative;
+    top:97px;
+}
+
+#par{
+    direction: rtl;
+    color: yellowgreen;
+}
+
+
+#mini1{
+    background-color: aqua;
+    position: absolute;
+    height: 32px;
+    width: 32px ;
+    top: 800px;
+    left: 100px;
+    text-align: center;
+}
+
+#mini2{
+    background-color: aqua;
+    position: absolute;
+    height: 32px;
+    width: 32px ;
+    top: 0px;
+    left: 500px;
+    text-align: center;
+}
+
+#mini3{
+    background-color: aqua;
+    position: absolute;
+    height: 32px;
+    width: 32px ;
+    top: 0px;
+    left: 500px;
+    text-align: center;
+}
+
+#mini4{
+    background-color: aqua;
+    position: absolute;
+    height: 32px;
+    width: 32px ;
+    top: 100px;
+    left: -1000px;
+    text-align: center;
+}
+
+#mini5{
+    background-color: aqua;
+    position: absolute;
+    height: 32px;
+    width: 32px ;
+    top: 0px;
+    left: 500px;
+    text-align: center;
+}
+
+#mini6{
+    background-color: aqua;
+    position: absolute;
+    height: 32px;
+    width: 32px ;
+    top: 0px;
+    left: 1000px;
+    text-align: center;
+}
+
+#minimap{
+    text-align: center;
+    width: 1000px;
+    height: 10px;
+    text-align: justify;
+    margin: 0 auto; /* Center the text horizontally */
+}
+
+d{
+    color: rgb(123, 123, 23);
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}

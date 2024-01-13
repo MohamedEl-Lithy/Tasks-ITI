@@ -1,0 +1,120 @@
+/* Basic styles for the navigation bar */
+nav {
+    background-color: white;
+    padding-bottom:15px;
+    position:absolute;
+    margin-left: 30%;
+    margin-top: 50px;
+    width: 50%;
+    height: 30px; 
+    opacity:0.5 ;
+  } 
+  nav ul {
+    list-style-type: none;
+    float: right;
+    padding-right: 5px; 
+  }
+  nav ul li {
+    display: inline-block;
+    padding-left:40px ; 
+  }
+  
+  header {
+    background-image:url(img/bg.jpg) ;
+   background-size:  cover;
+   position: relative;
+   height: 100vh;
+
+  }
+  p{
+    display: inline-block;
+    padding-left: 10px;
+    font-family: Rubik Doodle Shadow;
+
+  }
+  .statements
+  {
+    padding-top: 30%;
+    padding-left: 45%;
+  }
+  h2{
+    color: rgb(248, 242, 245);
+
+  }
+  hr{
+    width: 200px;;
+    margin-right: 800px;
+    
+  }
+  button{
+    background-color: #afa8dc;
+}
+h3{
+    color: rgb(20, 20, 20);
+}
+.dots
+{
+    text-align: center;
+}
+.circles
+{
+    width: 1px;
+    height: 1px;
+    background-color: black;
+    border-radius: 50%; 
+    padding: 4px; 
+     margin-left: 10px ; 
+     background-color: rgb(109, 105, 113);   
+}
+.sec1
+{
+    text-align: center;
+}
+.line1
+{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+font-size: 25px;
+}
+.line2
+{
+    font-family:'Times New Roman', Times, serif
+}
+.pic
+{
+    height: 80px;
+    width: 80px;
+    padding: 100px;
+    margin: 50px 10px;
+    display: inline-block;
+   
+
+}
+.pic1
+{
+    background-color: rgb(202, 187, 204);
+    
+}
+.pic2
+{
+    background-color: rgb(203, 169, 227);
+   
+}
+.pic3
+{
+  background-color: rgb(227, 170, 239) ;
+}
+.pic4
+{
+    background-color: rgb(212, 190, 214);
+}
+.imgs
+{
+    height: 250px;
+    width: 250px;
+    padding-left: 50px;
+    padding-top: 20px;
+    
+
+
+}

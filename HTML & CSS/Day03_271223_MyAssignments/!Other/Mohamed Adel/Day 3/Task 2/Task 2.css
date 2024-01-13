@@ -1,0 +1,104 @@
+.header{
+    height: 400px;
+    background-image: url("10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    width: 40%;
+    color: white;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.Portfolio-section{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.Portfolio-section h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Portfolio-section p{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Portfolio-single-img{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+
+.first-line{
+    margin-bottom: 24px;
+}
+
+.services-section{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.services-section h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.services-section p{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.service-card1{
+    width: 225px;
+    height: 225px;
+    background-color:beige;
+    display: inline-block;
+    margin-left:16px ;
+    margin-right: 16px;
+}
+
+.service-card2{
+    width: 225px;
+    height: 225px;
+    background-color:rgb(62, 126, 124);
+    display: inline-block;
+    margin-left:16px ;
+    margin-right: 16px;
+}
+.service-card3{
+    width: 225px;
+    height: 225px;
+    background-color:black;
+    display: inline-block;
+    margin-left:16px ;
+    margin-right: 16px;
+}
+.service-card4{
+    width: 225px;
+    height: 225px;
+    background-color:royalblue;
+    display: inline-block;
+    margin-left:16px ;
+    margin-right: 16px;
+}
+.services{
+    text-align: center;
+}
+.Portfolio-single-img{margin-left: 16px;
+ width: 19;
+margin-right: 16px;
+}

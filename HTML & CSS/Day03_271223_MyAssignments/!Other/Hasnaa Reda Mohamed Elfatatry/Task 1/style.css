@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header & nav started */
+header {
+    background-image: url(imgs/landing.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+header nav {
+    background-color: #e0dfdf;
+    height: 7vh;
+    width: 80vh;
+    margin: auto;
+    padding-top: 10px;
+}
+
+header nav div {
+    color: rgb(167, 142, 3);
+    display: inline-block;
+    margin: 10px;
+    font-weight: 700;
+}
+
+header nav ul {
+    color: rgb(167, 142, 3);
+    list-style-type: none;
+    float: right;
+}
+
+header nav ul li {
+    float: left;
+    margin: 10px;
+}
+
+header .text {
+    line-height: 30px;
+    color: #e0dfdf;
+    margin: 650px;
+    margin-bottom: 0;
+    margin-top: 400px;
+}
+
+header .hr {
+    color: rgb(167, 142, 3);
+    border: 2px solid;
+    width: 80%;
+}
+
+header button {
+    border: 2px solid;
+    font-weight: 600;
+    color: rgb(167, 142, 3);
+    line-height: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 650px;
+    margin-bottom: 0;
+    margin-top: 30px;
+    margin-left: 668px;
+    background-color: #e0dfdf;
+}
+
+/* Header & nav ended */
+
+/* The three dots started */
+div .bullets ul {
+    float: right;
+}
+
+div .bullets li {
+    float: left;
+    color: rgb(167, 142, 3);
+    height: 20px;
+    width: 20px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: 70px;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* The three dots ended */
+
+/* Services section started */
+section {
+    height: 70vh;
+}
+
+
+section .text {
+    padding: 70px;
+}
+
+section .imgs img {
+    height: 170px;
+    margin: 15px;
+}
+
+/* Services section ended */
+
+/* Portfolio section started */
+section .portfolio {
+    height: 50vh;
+}
+
+/* Portfolio section ended */

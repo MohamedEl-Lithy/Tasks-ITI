@@ -1,0 +1,108 @@
+back-img{
+    background-image: url("Images/th.jpg");
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    
+}
+
+#pre1{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-color: rgb(218, 201, 201);
+    width: 1080px;
+    font-size: 20px ;
+    padding: 10px;
+}
+
+#pre2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pre3{
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    font-size: 20px;
+    
+}
+
+#ar1{
+    background-color: aqua;
+    position: absolute;
+    height: 200px;
+    width: 300px ;
+    top: 700px;
+    left: 100px;
+}
+
+#ar2{
+    background-color: aqua;
+    position: absolute;
+    height: 200px;
+    width: 300px ;
+    top: 700px;
+    left: 500px;
+}
+
+#ar3{
+    background-color: aqua;
+    position: absolute;
+    height: 200px;
+    width: 300px ;
+    top: 700px;
+    left: 900px;
+}
+
+#ar4{
+    background-color: aqua;
+    position: absolute;
+    height: 200px;
+    width: 300px ;
+    top: 700px;
+    left: 1300px;
+}
+
+p{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    padding: 50px;
+}
+
+#sp1 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left:850px;
+    background-color: black;
+    border-radius: 50%;
+}
+  
+
+#sp2 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left:850px;
+    background-color: black;
+    border-radius: 50%;
+}
+  
+
+#sp3 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left:850px;
+    background-color: black;
+    border-radius: 50%;
+}
+  
